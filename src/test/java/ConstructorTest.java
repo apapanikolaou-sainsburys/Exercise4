@@ -11,4 +11,9 @@ class ConstructorTest {
         assertEquals("Anne", constructor.getFirstName());
     }
 
+    @Test
+    void returnsLastName() {
+        assertEquals("White", constructor.getLastName());
+    }
+
 }
